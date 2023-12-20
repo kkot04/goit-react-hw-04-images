@@ -43,8 +43,8 @@ const handleLoadMore = () => {
 
   /* modal */
   const openModal = imgUrl => {
-    setIsModalOpen(true);
     setModalImageUrl(imgUrl)
+    setIsModalOpen(true);
   };
 
   const closeModal = () => {

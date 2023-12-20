@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import s from './Modal.module.css'
 
-export const Modal = (modalImageUrl, closeModal) => {
+export const Modal = ({modalImageUrl, closeModal}) => {
     useEffect(() => {
         const handleKeyDown = event => {
           if (event.key === 'Escape') {
@@ -21,3 +21,5 @@ export const Modal = (modalImageUrl, closeModal) => {
             </div>
     )
 }
+
+
